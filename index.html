@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link href="css-circular-prog-bar.css" rel="stylesheet">
+
+  <title>test intégration</title>
+</head>
+
+<body>
+  <div class="box">
+    <div class="item"><a href="home" class="home"><i class="fas fa-home"></i></a>
+      <div class="dividerOne"></div>
+    </div>
+    <div class="item"><a href="#" class="dash">Tableau de board</a>
+      <div class="dividerTwo"></div>
+    </div>
+    <div class="item"><a href="#" class="souscriptions">Souscriptions</a> </div>
+    <div class="item"><a href="#"><i class="fas fa-bell"></i></a>
+      <div class="dividerThree"></div>
+    </div>
+    <div class="item">
+      <a href="#" class="profil">Nicolas Bussière</a>
+    </div>
+  </div>
+  <div class="box2">
+    <div class="progressItem">
+      <div class="progress-circle p20">
+        <div class="left-half-clipper">
+          <div class="first50-bar"></div>
+          <div class="value-bar"></div>
+        </div>
+      </div>
+    </div>
+    <div class="progressItem">
+      <p class="headerTitle">Bonjour Nicolas </p>
+      <p class="headerData"><span class="headerPercent">25%</span> de vos souscriptions sont finalisées
+      </p>
+    </div>
+    <div class="progressItem">
+      <div class="circle"><i class="fas fa-phone"></i></div>
+    </div>
+    <div class="progressItem">
+      <div class="circle"><i class="fas fa-comment"></i></div>
+    </div>
+    <div class="progressItem">
+      <div class="circle"><i class="fas fa-question"></i></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-sm-6" style="margin-bottom: 40px; margin-right: 10px;">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text"><span class="boxTitle">Énergie </span> <button class="boxButton">Continuer à souscrire ›</button>
+              <br>
+              <div class="progress progress-bar-vertical">
+                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"
+                  style="height: 20%;">
+                </div>
+              </div>
+              <span class="progressData">10%</span>
+              <p style="color: #D7D8E6;">de vos données <br>saisies et transmises</p>
+            </p>
+          </div>
+          <div class="card-text">
+            <div class="cadre">
+              <div class="cadreItem">
+                <button class="buttonStyle"></button>
+              </div>
+              <div class="cadreItem">
+                <p>Contrat sélectionné</p>
+                <p class="cadrePara">Aucun contrat sélectionné</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6" style="margin-bottom: 40px; margin-right: -10px;">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text"><span class="boxTitle">Box </span> <button class="boxButton">Continuer à souscrire ›</button>
+              <br>
+              <div class="progress progress-bar-vertical">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                  style="height: 60%;">
+                </div>
+              </div>
+              <span class="progressData">60%</span>
+              <p style="color: #D7D8E6;">de vos données <br>saisies et transmises</p>
+            </p>
+          </div>
+          <div class="card-text">
+            <div class="cadre">
+              <div class="cadreItem">
+                <span style="font-size: 3em; color: Tomato;margin-top: 29px;margin-left: 25px;">
+                  <i class="fas fa-igloo"></i></span>
+              </div>
+              <div class="cadreItem">
+                <p>Contrat sélectionné<br>
+                  <span class="sfrTitle">Fibre plus</span> <span class="sfrPrice">29,99€/mois TTC</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6" style="margin-bottom: 20px; margin-right: 10px;">
+        <div class="card">
+          <div class="card-body" style="height: 330px !important;">
+            <p class="card-text"><span class="boxTitle">Assurance </span>
+              <br>
+              <div class="assurBox"><span style="font-size: 3em; color:#02AFFA;margin-top: 29px;margin-left: 25px;"><i
+                    class="fas fa-shield-alt"></i></span> <span class="assurHeader">Commencer à souscrire ›</span></div>
+              <div class="assurDetails">
+                <p>Vous avez déjà renseigné <span style="color: #041486;">75% des données</span> nécessaires à la
+                  souscription de ce contrat</p>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="col-sm-6" style="margin-bottom: 20px; margin-right: -10px;">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text"><span class="boxTitle">Courrier </span> <button class="boxButton">Voir le
+                récapitulatif ›</button>
+              <br>
+              <div class="progress progress-bar-vertical">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                  style="height: 60%;">
+                </div>
+              </div>
+              <p class="paraStyle">Saisie et ouverture du contrat : <span style="color: #02AFFA">validé</span> <br>
+                Validation du contrat par Souscritoo : <span style="color: #E440A7">en cours</span> <br>
+                <span style="color: #DFE2EE">Contrat validé !</span></p>
+            </p>
+          </div>
+          <div class="card-text">
+            <div class="cadre">
+              <div class="cadreItem">
+                <span style="font-size: 3em; color: Tomato;margin-top: 29px;margin-left: 25px;">
+                  <i class="fab fa-usps"></i></span>
+              </div>
+              <div class="cadreItem">
+                <p>Contrat sélectionné<br>
+                  <span class="sfrTitle">Redirection</span> <span class="sfrPrice">9,99€/mois TTC</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
